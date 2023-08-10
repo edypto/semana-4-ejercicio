@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.box{
+    padding: 100px;
+}
+
+h2{
+    margin-bottom: 30px;
+}
+
+.nav {
+    display:  flex;
+    gap: 2rem;
+    list-style: none;
+    
+}
+.nav li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+
+.nav  li:last-child a{
+   
+    color: red;
+    position: ;
+
+}
+
+.nav  li:first-child a{
+    
+    color: yellow;
+
+}
+
+.nav li:nth-child(3)  a {
+   background-color: green;
+
+}
+
+.nav li:nth-child(4)  a:hover {
+    background-color: blue;
+ 
+ }
+
+ .nav li:nth-child(5)  a:active {
+    color: pink;
+ 
+ }
+
+ .box-container{
+    display: flex;
+    gap: 20px;
+ }
+
+
+ .box-position{
+    margin-top: 50px;
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    position: relative;
+ }
+
+ .box-position p{
+    color: green;
+    font-size: 30px;
+ }
+
+ .relative p{
+    position: relative;
+    left: 20px;
+    top: 30px;
+ }
+
+ .absolute p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
+
+ .fixed p{
+    position: fixed;
+ }
+
+ .sticky p{
+
+    position: sticky;
+    top: 30px;
+ }
+
+
+
+ .box-image{
+    
+    position: relative;
+ }
+
+ .box-image div{
+
+    height: 200px;
+    width: 400px;
+    border: 1px solid black;
+    position: relative;
+    position: absolute;
+
+
+ }
+
+ 
+
+
+ .box-image div:nth-child(1){
+   
+    background-color: red;
+    left: 200px;
+    top: 0;
+ }
+
+ .box-image div:nth-child(2){
+   
+    background-color: blue;
+    top: 50px;
+    left: 300px;
+    
+ }
+
+ .box-image div:nth-child(3){
+   
+    background-color: brown;
+    top: 100px;
+    left: 400px;
+    
+ }
+
+ .box-image div:nth-child(4){
+   
+    background-color: green;
+    top: 70px;
+    left: 320px;
+
+    width: 150px;
+    height: 150px;
+    
+ }
+
+ 
